@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #010101;
+    color: #e2e8f0;
+    /* margin: 0; */
+    /* line-height: 0px; */
+}
+
+#container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+/* fonts */
+h1,h2,h3,h4,p {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+h1 {
+    color: #fde047;
+}
+h4 {
+    color: #9ca3af;
+}
+#mapTitle {
+    color: #6ee7b7;
+}
+#idName {
+    color: #f1f5f9;
+}
+#p01 {
+    color: #2563eb ;
+}
+#score {
+    color: #60a5fa;
+}
+
+
+
+div#world {
+    text-align: center;
+    margin-bottom: 15px;
+}
+div.row div{
+    display: inline-block;
+}
+
+
+
+/* Wall Designs */
+div.bricks{
+    border-style: solid;
+    border-width: 0 1px 2px 0;
+    width: 14px;
+    height: 13px;
+}
+div.bricks.default{
+    background-image: linear-gradient(to bottom right, #94a3b8, #334155);
+    border-color: #1f2937;
+}
+div.bricks.gate{
+    position: relative;
+    bottom: 5px;
+    width: 14px;
+    height: 6px;
+}
+div.pink-0{
+    background-image: linear-gradient(to bottom, #f9a8d4, #db2777);
+    border-color: #831843;
+}
+div.bricks.blue-0{
+    background-image: linear-gradient(to bottom right, #0ea5e9, #0369a1);
+    border-color: #0c4a6e;
+}
+div.bricks.blue-1{
+    background-image: linear-gradient(to bottom right, #60a5fa, #2563eb);
+    border-color: #1e40af;
+}
+div.bricks.red-0{
+    background-image: linear-gradient(to bottom right, #f87171, #b91c1c);
+    border-color: #7f1d1d;
+}
+div.bricks.yellow-0{
+    background-image: linear-gradient(to bottom right, #fbbf24, #eab308);
+    border-color: #854d0e;
+}
+div.bricks.green-0{
+    background-image: linear-gradient(to bottom right, #4ade80, #15803D);
+    border-color: #14532D;
+}
+div.bricks.green-1{
+    background-image: linear-gradient(to bottom right, #34d399, #065f46);
+    border-color: #14532D;
+}
+div.bricks.neutral-0{
+    background-image: linear-gradient(to bottom right, #a8a29e, #57534e);
+    border-color: #292524;
+}
+
+
+
+div.empty{
+    width: 15px;
+    height: 15px;
+    /* border: none; */
+}
+div.coins{
+    width: 15px;
+    height: 15px;
+    background: url(img/coins.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6px;
+}
+div.cherries{
+    width: 15px;
+    height: 15px;
+    background: url(img/cherry.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* GHOSTs Design */
+
+div.ghosts{
+    width: 15px;
+    height: 15px;
+}
+
+div.ghosts#blinky{
+    background: url(img/blinky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.ghosts#inky{
+    background: url(img/inky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.ghosts#pinky{
+    background: url(img/pinky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.ghosts#clyde{
+    background: url(img/clyde.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* PACMAN Designs */
+
+div#pacman{
+    background: url(img/pacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+}
